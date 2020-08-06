@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <title>Play Flappy Bird</title>
+    <link rel="icon" href="./images/bird-1.png" sizes="16x16" />
+    <link rel="stylesheet" href="./style/flappyBird.css" />
+  </head>
+  <body>
+    <script type="text/javascript" src="../flappyBirdLogic/vec.js"></script>
+    <script type="text/javascript" src="../flappyBirdLogic/bird.js"></script>
+    <script type="text/javascript" src="../flappyBirdLogic/pipes.js"></script>
+    <script
+      type="text/javascript"
+      src="../flappyBirdLogic/flappyBirdGameLogic.js"
+    ></script>
+    <script type="text/javascript" src="./birdUI.js"></script>
+    <script type="text/javascript" src="./groundUI.js"></script>
+    <script type="text/javascript" src="./flappyBirdUI.js"></script>
+
+    <script>
+      new FlappyBirdUI().runGame();
+    </script>
+  </body>
+</html>
