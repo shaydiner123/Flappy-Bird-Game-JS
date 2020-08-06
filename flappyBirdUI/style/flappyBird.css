@@ -1,9 +1,14 @@
-canvas {
-  margin: 5vh auto;
-  display: block;
-  border: 1px solid;
-}
-
 body {
   background-color: #111111;
+}
+
+h1 {
+  color: azure;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+canvas {
+  margin: 0 auto;
+  display: block;
+  border: 1px solid;
 }
